@@ -12,9 +12,7 @@
 
 .wrapper {
   max-width: 1110px;
-  max-height: 21px;
   margin: 0 auto;
-  margin-top: 35px;
 }
 ul {
   margin: 0 auto;
@@ -185,7 +183,6 @@ span {
 .article {
   float: left;
   min-height: 348px;
-  min-width: 262px;
   width: 353px;
   margin-right: 20px;
 }
