@@ -37,6 +37,7 @@ a {
   font-size: 30px;
   color: #515151;
   text-decoration: none;
+  display:block;
 }
 a:hover {
   color: #1abc9c;
@@ -141,7 +142,7 @@ h2::after {
 
 .info-wrapper {
   padding: 0px;
-  margin-top: -5px;
+  margin-top: -4.1px;
   height: 42px;
   width: 257px;
   background-color: #8c8c8c;
