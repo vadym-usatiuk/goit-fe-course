@@ -1,117 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Mart</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto:300,400,800,900" rel="stylesheet">
-</head>
-<body>
-	<header>
-		<div class="navigation-container">	
-			<nav>
-				<h1 class="logo">mart</h1>	
-				<ul class="navigation-list">
-					<li><a href="#">home</a></li>
-					<li><a href="#">about us</a></li>
-					<li><a href="#">page</a></li>
-					<li><a href="#">shop</a></li>
-					<li><a href="#">blog</a></li>
-					<li><a href="#">contact us</a></li>
-				</ul>
-			</nav>
-		</div>	
-	</header>
-	<main>
-		<section class="slider-section">
-			<div class="slider">
-				<button class="slider-move prev"><img src="images/prev.png" alt=""></button>
-				<button class="slider-move next"><img src="images/next.png" alt=""></button>
-				<ul class="slides">	
-					<li class="slides-item">	
-						<img src="images/slide-01.png" alt="" class="slides-image">
-						<h2 class="slides-name">affordable paris tours</h2>
-						<p class="slides-descr">city tours/tour tickets/ tour guides</p>
-					</li>
-				</ul>
-			</div>
-		</section>
-		<section class="gallery-section">
-			<div class="gallery-container">	
-				<h3>new collection</h3>
-					<div class="gallery-wrapper">	
-						<div class="gallery">
-							<div class="overlay">
-								<div class="square-icons">
-									<span class="overlay-icon"><img src="images/heart.png" class="icon-img" alt=""></span>
-									<span class="overlay-icon"><img src="images/line.png" class="icon-img" alt=""></span>
-									<span class="overlay-icon"><img src="images/time.png" class="icon-img" alt=""></span>
-									<span class="buy_product"><img src="images/truck.png" alt=""><h4>add to cart</h4></span>
-								</div>
-							</div>
-							<img src="images/image-01.png" alt="">
-							<div class="info-wrapper">
-								<p>blue tshirt</p>
-								<span>$26</span>
-							</div>
-						</div>
-						<div class="gallery">
-							<div class="overlay">
-								<div class="square-icons">
-									<span class="overlay-icon"><img src="images/heart.png" class="icon-img" alt=""></span>
-									<span class="overlay-icon"><img src="images/line.png" class="icon-img" alt=""></span>
-									<span class="overlay-icon"><img src="images/time.png" class="icon-img" alt=""></span>
-									<span class="buy_product"><img src="images/truck.png" alt=""><h4>add to cart</h4></span>
-								</div>
-							</div>
-							<img src="images/image-02.png" alt="">
-							<div class="info-wrapper">
-								<p>woman tshirt</p>
-								<span>$26</span>
-							</div>
-						</div>
-						<div class="gallery">
-							<div class="overlay">
-								<div class="square-icons">
-                  <span class="overlay-icon"><img src="images/heart.png" class="icon-img" alt=""></span>
-									<span class="overlay-icon"><img src="images/line.png" class="icon-img" alt=""></span>
-									<span class="overlay-icon"><img src="images/time.png" class="icon-img" alt=""></span>
-                  <span class="buy_product"><img src="images/truck.png" alt=""><h4>add to cart</h4></span>
-								</div>
-							</div>
-							<img src="images/image-03.png" alt="">
-							<div class="info-wrapper">
-								<p>yellow tshirt</p>
-								<span>$26</span>
-							</div>
-						</div>
-						<div class="gallery">
-							<div class="overlay">
-								<div class="square-icons">
-									<span class="overlay-icon"><img src="images/heart.png" class="icon-img" alt=""></span>
-									<span class="overlay-icon"><img src="images/line.png" class="icon-img" alt=""></span>
-									<span class="overlay-icon"><img src="images/time.png" class="icon-img" alt=""></span>
-                  <span class="buy_product"><img src="images/truck.png" alt=""><h4>add to cart</h4></span>
-									</span>
-								</div>
-							</div>
-							<img src="images/image-04.png" alt="">
-							<div class="info-wrapper">
-								<p>cool lingerie</p>
-								<span>$26</span>
-							</div>
-						</div>
-			</div>
-
-		</section>
-	</main>
-	<footer>
-		<div class="footer_container">
-			<div class="footer_container_wrapper">
-				<p>	All Rights Reserved © Dokan | Designed </p>
-				<a href="#">ThemenGraph</a>
-			</div>
-		</div>
-	</footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mart</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto:300,400,800,900"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navigation container">
+      <nav class="page-navigation">
+        <h1 class="logo">mart</h1>
+        <ul class="navigation-list">
+          <li><a href="">home</a></li>
+          <li><a href="">about us</a></li>
+          <li><a href="">page</a></li>
+          <li><a href="">shop</a></li>
+          <li><a href="">blog</a></li>
+          <li><a href="">content us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-content">
+      <section class="slider">
+        <div class="slider-wrapper">
+          <h2 class="slider-description">affordable paris tours</h2>
+          <p class="slider-text">city tours / tour tickets / tour guides</p>
+          <button class="slider-prev">
+            <img src="/module-05/images/prev.png" alt="" />
+          </button>
+          <button class="slider-next">
+            <img src="/module-05/images/next.png" alt="" />
+          </button>
+        </div>
+      </section>
+      <section class="gallery">
+        <div class="container">
+          <h2 class="gallery-title">news collection</h2>
+          <ul class="gallery-menu">
+            <li class="gallery-menu-item">
+              <a href="" class="gallery-menu-item-link">
+                <img
+                  src="/module-05/images/image-01.jpg"
+                  alt="pictures"
+                  class="gallery-menu-item-img"
+                />
+                <div class="info-wrapper">
+                  <span class="item-description">blue tshirt</span>
+                  <span class="item-price">$26</span>
+                </div>
+                <div class="overlay">
+                  <ul class="overlay-list">
+                    <li class="square-icons">
+                      <button href="#">
+                        <img
+                          src="/module-05/images/heart.png"
+                          alt="like"
+                          class="overlayImage-img"
+                        />
+                      </button>
+                    </li>
+                    <li class="square-icons">
+                      <button href="#">
+                        <img
+                          src="/module-05/images/line.png"
+                          alt="line"
+                          class="overlayImage-img"
+                        />
+                      </button>
+                    </li>
+                    <li class="square-icons">
+                      <button href="#">
+                        <img
+                          src="/module-05/images/time.png"
+                          alt="time"
+                          class="overlayImage-img"
+                        />
+                      </button>
+                    </li>
+                  </ul>
+                  <div class="purchase">
+                    <img
+                      src="/module-05/images/truck.png"
+                      alt="purchase"
+                      class="img-purchase"
+                    />
+                    <p class="purchase-text">ADD TO CART</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="gallery-menu-item">
+              <a href="" class="gallery-menu-item-link">
+                <img
+                  src="/module-05/images/image-02.jpg"
+                  alt="pictures"
+                  class="gallery-menu-item-img"
+                />
+                <div class="info-wrapper">
+                  <span class="item-description">woman shirt</span>
+                  <span class="item-price">$26</span>
+                </div>
+                <div class="overlay-icons">
+                  <div class="overlay">
+                    <ul class="overlay-list">
+                      <li class="square-icons">
+                        <button href="#">
+                          <img
+                            src="/module-05/images/heart.png"
+                            alt="like"
+                            class="overlayImage-img"
+                          />
+                        </button>
+                      </li>
+                      <li class="square-icons">
+                        <button href="#">
+                          <img
+                            src="/module-05/images/line.png"
+                            alt="line"
+                            class="overlayImage-img"
+                          />
+                        </button>
+                      </li>
+                      <li class="square-icons">
+                        <button href="#">
+                          <img
+                            src="/module-05/images/time.png"
+                            alt="time"
+                            class="overlayImage-img"
+                          />
+                        </button>
+                      </li>
+                    </ul>
+                    <div class="purchase">
+                      <img
+                        src="/module-05/images/truck.png"
+                        alt="purchase"
+                        class="img-purchase"
+                      />
+                      <p class="purchase-text">ADD TO CART</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="gallery-menu-item">
+              <a href="" class="gallery-menu-item-link">
+                <img
+                  src="/module-05/images/image-03.jpg"
+                  alt="pictures"
+                  class="gallery-menu-item-img"
+                />
+                <div class="info-wrapper">
+                  <span class="item-description">yellow tshirt</span>
+                  <span class="item-price">$26</span>
+                </div>
+                <div class="overlay-icons">
+                  <div class="overlay">
+                    <ul class="overlay-list">
+                      <li class="square-icons">
+                        <button href="#">
+                          <img
+                            src="/module-05/images/heart.png"
+                            alt="like"
+                            class="overlayImage-img"
+                          />
+                        </button>
+                      </li>
+                      <li class="square-icons">
+                        <button href="#">
+                          <img
+                            src="/module-05/images/line.png"
+                            alt="line"
+                            class="overlayImage-img"
+                          />
+                        </button>
+                      </li>
+                      <li class="square-icons">
+                        <button href="#">
+                          <img
+                            src="/module-05/images/time.png"
+                            alt="time"
+                            class="overlayImage-img"
+                          />
+                        </button>
+                      </li>
+                    </ul>
+                    <div class="purchase">
+                      <img
+                        src="/module-05/images/truck.png"
+                        alt="purchase"
+                        class="img-purchase"
+                      />
+                      <p class="purchase-text">ADD TO CART</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="gallery-menu-item">
+              <a href="" class="gallery-menu-item-link">
+                <img
+                  src="/module-05/images/image-04.jpg"
+                  alt="pictures"
+                  class="gallery-menu-item-img"
+                />
+                <div class="info-wrapper">
+                  <span class="item-description">cool lingerie</span>
+                  <span class="item-price">$26</span>
+                </div>
+                <div class="overlay-icons">
+                  <div class="overlay">
+                    <ul class="overlay-list">
+                      <li class="square-icons">
+                        <button href="#">
+                          <img
+                            src="/module-05/images/heart.png"
+                            alt="like"
+                            class="overlayImage-img"
+                          />
+                        </button>
+                      </li>
+                      <li class="square-icons">
+                        <button href="#">
+                          <img
+                            src="/module-05/images/line.png"
+                            alt="line"
+                            class="overlayImage-img"
+                          />
+                        </button>
+                      </li>
+                      <li class="square-icons">
+                        <button href="#">
+                          <img
+                            src="/module-05/images/time.png"
+                            alt="time"
+                            class="overlayImage-img"
+                          />
+                        </button>
+                      </li>
+                    </ul>
+                    <div class="purchase">
+                      <img
+                        src="/module-05/images/truck.png"
+                        alt="truck"
+                        class="img-purchase"
+                      />
+                      <p class="purchase-text">ADD TO CART</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-info">
+      <p class="rights">All Rights Reserved © Dokan | Designed</p>
+      <p class="theme">Themen Graph</p>
+    </footer>
+  </body>
 </html>
