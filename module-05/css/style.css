@@ -64,7 +64,7 @@
 
 .slider {
   width: 100%;
-  background: url("/module-05/images/slide-01.png"),
+  background: url("../images/slide-01.png"),
     linear-gradient(
       to bottom,
       rgba(58, 58, 58, 0.6) 0%,
