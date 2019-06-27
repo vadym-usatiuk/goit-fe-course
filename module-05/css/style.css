@@ -17,6 +17,10 @@
   padding: 38px 0 38px 0;
 }
 
+h1,h2,p{
+  margin: 0;
+} 
+
 /*Logo and Navigation Settings*/
 
 .logo {
@@ -157,6 +161,7 @@
 
 .gallery {
   background-color: #e9f0fd;
+  padding-top: 35px;
 }
 
 .gallery-title {
@@ -169,7 +174,7 @@
   font-size: 46px;
   font-weight: 900;
   width: 415px;
-  padding: 104px 0 122px 0;
+  padding: 66px 0 122px 0;
 }
 
 .gallery-title::before {
