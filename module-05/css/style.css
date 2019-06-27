@@ -17,9 +17,11 @@
   padding: 38px 0 38px 0;
 }
 
-h1,h2,p{
+h1,
+h2,
+p {
   margin: 0;
-} 
+}
 
 /*Logo and Navigation Settings*/
 
@@ -240,12 +242,13 @@ h1,h2,p{
   margin-right: 8px;
 }
 
-.square-icons button {
-  background: none;
-  border: none;
+.square-icons:last-of-type {
+  margin-right: 0;
 }
-
-.overlayImage-img {
+.square-icons button {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
   border: 1px solid white;
   width: 50px;
   height: 50px;
@@ -253,11 +256,17 @@ h1,h2,p{
   margin-bottom: 8px;
 }
 
-.square-icons:nth-child(3n) {
-  margin-right: 0;
+.heart-button {
+  background-image: url("../images/heart.png");
+}
+.line-button {
+  background-image: url("../images/line.png");
+}
+.time-button {
+  background-image: url("../images/time.png");
 }
 
-.overlayImage-img:hover {
+.square-icons button:hover {
   background-color: #1abc9c;
 }
 
