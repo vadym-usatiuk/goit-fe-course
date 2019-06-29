@@ -18,6 +18,10 @@
   margin-left: -3px;
 }
 
+.a {
+  display: block;
+}
+
 /* Navigation Settings */
 .page-navigation {
   display: flex;
@@ -114,10 +118,71 @@
   margin-bottom: 92px;
 }
 
-.item-image {
+.icon-alarm {
+  background-image: url("../images/ALARM@1X.png");
   position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
   top: 0;
   left: 0;
+  width: 33px;
+  height: 33px;
+}
+.icon-line {
+  background-image: url("../images/LINE GRAPH@1X.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  width: 33px;
+  height: 33px;
+}
+.icon-computer {
+  background-image: url("../images/COMPUTER _ OK@1X.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  width: 33px;
+  height: 33px;
+}
+.icon-book {
+  background-image: url("../images/BOOK 2@1X.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  width: 33px;
+  height: 33px;
+}
+.icon-home {
+  background-image: url("../images/HOME@1X.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  width: 33px;
+  height: 33px;
+}
+.icon-digital {
+  background-image: url("../images/IMAGE@1X.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  width: 33px;
+  height: 33px;
 }
 
 .main-content-title {
