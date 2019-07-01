@@ -1,31 +1,19 @@
 @font-face {
   font-family: "Roboto Slab";
   font-style: normal;
-  src: url("../fonts/roboto-slab-v8-cyrillic_latin-regular.woff2")
-    format("woff2");
   font-weight: 400;
-}
-
-@font-face {
-  font-family: "Wisdom Script";
-  font-style: normal;
-  src: url("../fonts/Wisdom Script AI.woff2") format("woff2");
-  font-weight: 400;
+  src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"),
+    url("../fonts/roboto-slab-v8-latin-regular.woff2") format("woff2"),
+    url("../fonts/roboto-slab-v8-latin-regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Montserrat";
   font-style: normal;
-  src: url("../fonts/montserrat-v13-cyrillic_latin-regular.woff2")
-    format("woff2");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  src: url("../fonts/montserrat-v13-cyrillic_latin-700.woff2") format("woff2");
   font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("../fonts/montserrat-v13-latin-700.woff2") format("woff2"),
+    url("../fonts/montserrat-v13-latin-700.woff") format("woff");
 }
 
 * {
@@ -36,7 +24,7 @@
 
 .container {
   margin: 0 auto;
-  width: 1000px;
+  width: 940px;
 }
 
 .page-nav {
@@ -48,7 +36,7 @@
 
 .logo {
   display: inline-block;
-  font-family: "Wisdom Script";
+  font-family: "Roboto Slab";
   font-style: italic;
   color: #fed136;
   font-size: 26px;
@@ -75,7 +63,6 @@
   text-transform: uppercase;
   font-family: "Montserrat";
   font-size: 14px;
-  font-weight: 700;
 }
 
 .navigation-link:hover,
@@ -140,7 +127,6 @@
 .second-title {
   font-family: "Montserrat";
   text-align: center;
-  font-weight: 700;
   padding-bottom: 16px;
   padding-top: 28px;
 }
@@ -154,10 +140,16 @@
 }
 
 .contactus-section {
-  height: 676px;
   background-color: #222222;
   background-size: cover;
   position: relative;
+  background-image: url("../images/image-map.png");
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 800px 110px;
+  padding-top: 110px;
+  padding-bottom: 115px;
 }
 
 .third-title {
@@ -165,35 +157,25 @@
   text-align: center;
   color: white;
   text-transform: uppercase;
-  font-weight: 700;
-  padding-top: 110px;
   font-size: 40px;
+  margin-bottom: 23px;
 }
 
 .third-description {
   font-family: "Roboto Slab";
   text-align: center;
   color: #777777;
-  padding: 23px 0 75px 0;
-}
-
-.map {
-  background-image: url("../images/image-map.png");
-  position: absolute;
-  margin: 0 auto;
-  display: block;
-  background-repeat: no-repeat;
-  background-position: left;
-  background-color: transparent;
-  left: 900px;
-  top: 140px;
-  width: 614px;
-  height: 537px;
+  margin-bottom: 75px;
 }
 
 .pre-footer {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
+}
+
+.pre-footer:last-of-type {
+  margin-bottom: 0;
 }
 
 .input-block {
@@ -206,7 +188,8 @@
   width: 455px;
   height: 50px;
   border-radius: 6px;
-  margin-top: 25px;
+  margin-top: 32px;
+  padding: 1rem;
 }
 
 .input:first-child {
@@ -218,16 +201,16 @@
   text-transform: uppercase;
   color: #bbbbbb;
   padding: 19px 0 21px 20px;
-  font-weight: 700;
   font-size: 14px;
 }
 
 .text-area {
   border: 2px solid #e4e4e4;
-  width: 455px;
-  height: 200px;
+  width: 456px;
+  height: 100%;
   margin-left: 30px;
   border-radius: 6px;
+  padding: 1rem;
 }
 
 .text-area::placeholder {
@@ -235,30 +218,28 @@
   text-transform: uppercase;
   color: #bbbbbb;
   padding: 20px 0 0 20px;
-  font-weight: 700;
   font-size: 14px;
 }
 
 .submit-block {
   border: 1px solid #fed136;
-  margin: 30px auto 0;
+  margin: auto 0;
   background-color: #fed136;
   font-family: "Montserrat";
   text-transform: uppercase;
   color: white;
   border-radius: 6px;
-  font-weight: 700;
   font-size: 18px;
   width: 240px;
   height: 65px;
 }
 
-.chek-form input:required:valid,
+.chek-form input:focus:required:valid,
 .chek-form text-area:required:valid {
   border: 1.5px solid green;
 }
 
-.chek-form input:required:invalid,
+.chek-form input:focus:required:invalid,
 .chek-form text-area:required:invalid {
   border: 1.5px solid red;
 }
