@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-block {
+  background: url(../images/main-image-mobile.png) rgba(0, 0, 0, 0.5) no-repeat;
+  background-size: cover;
+}
+
+.link-block {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 115px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 2px;
+  max-width: 940px;
+  margin: 0 auto;
+  padding-top: 46px;
+  padding-bottom: 151px;
+}
+
+.header-link-01 {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  margin-left: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.header-link {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  border: 3px solid transparent;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 10px 17px 8px 16px;
+  margin-left: 25px;
+  border-radius: 25px;
+}
+
+.header-link:hover {
+  border: 3px solid white;
+}
+
+.color {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.main-line {
+  text-decoration: none;
+  display: block;
+  margin: 0 auto 38px;
+  font-size: 20px;
+}
+
+.second-line {
+  display: block;
+  margin: 0 auto;
+  font-size: 30px;
+  margin-bottom: 19px;
+}
+
+.third-line-description {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: white;
+  margin: 0 auto 19px;
+  width: 217px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.button {
+  font-family: "Montserrat", sans-serif;
+  background-color: #ff4e50;
+  border: 1px solid #ff4e50;
+  margin: 0 auto;
+  color: white;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+  width: 280px;
+  height: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 25px;
+}
+
+.special-main-line {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  padding: 0 35px;
+  margin-bottom: 31px;
+  margin-bottom: 14px;
+}
+
+.block-presentation {
+  width: 220px;
+  list-style: none;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.img-wrapper {
+  width: 121px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.img-wrapper::before {
+  display: block;
+  content: url("../images/icon-tv.png");
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.block-presentation:nth-of-type(2) .img-wrapper::before {
+  content: url("../images/icon-cup.png");
+}
+.block-presentation:nth-of-type(3) .img-wrapper::before {
+  content: url("../images/icon-glass.png");
+}
+.block-presentation:nth-of-type(4) .img-wrapper::before {
+  content: url("../images/icon-telegram.png");
+}
+
+.photo {
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 68px;
+  padding-bottom: 57px;
+}
+
+.icon-tv {
+  padding: 6px 0 0 8px;
+}
+
+.icon-glass {
+  padding: 8px 0 0 11px;
+}
+
+.icon-cup {
+  padding: 7px 0 0 8px;
+}
+
+.icon-telegram {
+  padding: 8px 0 0 8px;
+}
+
+.my-name {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 20px 0 15px 0;
+}
+
+.about-me {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: gray;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.button-second {
+  background-color: transparent;
+  border: 2px solid #ff4e50;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  color: #ff4e50;
+  cursor: pointer;
+  display: block;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 14px;
+  width: 276px;
+  height: 36px;
+}
+
+@media all and (min-width: 768px) {
+  .navigation {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin-bottom: 160px;
+  }
+
+  .header-block {
+    background: url(../images/main_image.png) rgba(0, 0, 0, 0.5);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .link-block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+
+  .main-line {
+    padding: 0;
+    margin: 0;
+  }
+
+  .second-line {
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .third-line-description {
+    font-size: 24px;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .button {
+    width: 225px;
+    height: 30px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .special-main-line {
+    padding: 0 200px;
+    margin-bottom: 31px;
+  }
+
+  .block-presentation {
+    margin-bottom: 30px;
+    width: 48%;
+  }
+
+  .list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .button-second {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 188px;
+    height: 36px;
+    margin: 0 auto;
+  }
+
+}
+
+@media all and (min-width: 960px) {
+  .header-block {
+    background: url(../images/main_image.png) rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+  }
+
+  .list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .main-line {
+    padding: 0;
+    margin: 0;
+  }
+
+  .button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 225px;
+    height: 30px;
+  }
+
+  .card {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .button-second {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .special-main-line {
+    padding: 0 200px;
+    margin-bottom: 31px;
+  }
+
+  .block-presentation {
+    list-style: none;
+    margin: 0 auto;
+    width: 200px;
+    margin-bottom: 31px;
+    padding-right: 30px;
+  }
+
+  .block-presentation:nth-of-type(4){
+    padding-right: 0px;
+  }
+}
