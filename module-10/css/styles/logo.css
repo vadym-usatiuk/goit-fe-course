@@ -1,0 +1,14 @@
+.logo__link {
+    font-family: var(--main-font);
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logo__link:hover{
+    color: var(--color-secondary);
+    -webkit-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    transition: all 200ms linear;
+}

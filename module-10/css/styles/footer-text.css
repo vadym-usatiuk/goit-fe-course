@@ -1,0 +1,11 @@
+.footer_text{
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.footer_text__name{
+    text-decoration: none;
+    color: var(--main-color);
+}

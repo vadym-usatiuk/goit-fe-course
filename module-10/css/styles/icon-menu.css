@@ -1,0 +1,11 @@
+.icon-menu {
+    text-decoration: none;
+}
+
+.icon-menu__link {
+    fill: #ffffff;
+}
+
+.icon-menu__link:hover {
+    fill: var(--color-secondary);
+}

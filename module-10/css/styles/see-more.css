@@ -1,0 +1,26 @@
+.see-more {
+    margin-bottom: 190px;
+}
+
+.see-more__link {
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 28px;
+    border: 3px solid #ffffff;
+}
+
+.see-more__link:hover {
+    color: var(--main-color);
+}
+
+.see-more__link:hover {
+    background-color: var(--color-secondary);
+    border: 3px solid var(--main-color);
+    -webkit-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
